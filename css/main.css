@@ -135,7 +135,9 @@ html {
   transform: translateY(0%) !important; }
 
 body .blogr {
-  max-width: 90rem; }
+  max-width: 90rem;
+  margin-right: auto;
+  margin-left: auto; }
   body .blogr .header {
     width: 100%;
     height: 37.5rem;
