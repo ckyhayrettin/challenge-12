@@ -1,0 +1,160 @@
+body {
+    .blogr {
+        .footer {
+            background-color: $dark-blackblue;
+            width: 100%;
+            height: 22.4375rem;
+            border-radius: 0rem 6.25rem 0rem 0rem;
+            padding: 4.375rem 21.4375rem 4.8125rem 10.3125rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__logo {
+                width: 25%;
+                height: 13.25rem;
+            }
+
+            &__images {
+                width: 6.3125rem;
+                height: 2.5rem;
+            }
+
+            &__img {
+                width: 100%;
+            }
+
+            &__nav {
+                width: 75%;
+                height: 13.25rem;
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                padding: 0.625rem 0rem 0rem 3.3125rem;
+            }
+
+            &__product {
+                height: 100%;
+            }
+
+            &__company {
+                height: 100%;
+            }
+
+            &__connect {
+                height: 100%;
+            }
+
+            &__h3 {
+                height: 25%;
+                font-size: 0.75rem;
+                font-family: $font-Overpass;
+                color: $White;
+            }
+
+            &__list {
+                height: 75%;
+                display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                justify-content: flex-start;
+            }
+
+            &__li {
+                list-style: none;
+                padding-bottom: 0.5rem;
+            }
+
+            &__a {
+                text-decoration: none;
+                color: $Grayish-blue;
+                font-size: 0.75rem;
+                font-family: $font-Overpass;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 100%;
+    }
+
+    body {
+        .blogr {
+            .footer {
+                height: 49.125rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 4.0625rem 7.4375rem 4.5rem 7.4375rem;
+
+                &__logo {
+                    width: 100%;
+                    height: 2.25rem;
+                }
+
+                &__images {
+                    height: 100%;
+                    width: 100%;
+                }
+
+                &__img {
+                    width: 100%;
+                }
+
+                &__nav {
+                    width: 100%;
+                    height: 34rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0;
+                }
+
+                &__product {
+                    height: 33.3%;
+                    width: 100%;
+                }
+
+                &__company {
+                    height: 33.3%;
+                    width: 100%;
+                    margin-top: 1rem;
+                }
+
+                &__connect {
+                    height: 33.3%;
+                    width: 100%;
+                }
+
+                &__h3 {
+                    height: auto;
+                    text-align: center;
+                    font-size: 0.8125rem;
+                    margin-bottom: 0.5rem;
+                }
+
+                &__list {
+                    height: 75%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+
+                &__li {
+                    text-align: center;
+                    padding: 0.3rem;
+                }
+
+                &__a {
+                    text-align: center;
+                    font-size: 0.8125rem;
+                }
+            }
+        }
+    }
+}

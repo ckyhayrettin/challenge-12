@@ -1,0 +1,192 @@
+$Light-red: hsl(356, 100%, 66%); //(CTA text)
+$Very-lightred: hsl(355, 100%, 74%); //(CTA hover background)
+$Very-darkblue: hsl(208, 49%, 24%); //(headings)
+$White: hsl(0, 0%, 100%); //(text)
+$Grayish-blue: hsl(240, 2%, 79%); //(footer text)
+$Very-darkgrayishblue: hsl(207, 13%, 34%); //(body copy)
+$dark-blackblue: hsl(240, 10%, 16%); //(footer background)
+
+//Background gradient - Intro/CTA mobile nav:
+$Very-lightred: hsl(13, 100%, 72%);
+$Light-red: hsl(353, 100%, 62%);
+
+//Background gradient - body:
+$Very-darkgrayblue: hsl(237, 17%, 21%);
+$Very-darkdesaturatedblue: hsl(237, 23%, 32%);
+
+$Fontsize: 1rem;
+
+$font-Overpass: 'Overpass', sans-serif;
+$font-Ubuntu: 'Ubuntu', sans-serif;
+
+
+html {
+    font-size: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 8.625rem;
+    height: 3rem;
+    background-color: $White;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.pruducts {
+    display: none;
+}
+
+.pruducts-show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10.5rem;
+    height: 9.1875rem;
+    position: absolute;
+    top: 16%;
+    left: 20%;
+    background-color: $White;
+    color: $Very-darkblue;
+    padding: 0.4rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+
+    .pruducts-li {
+        list-style: none;
+        padding-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .pruducts-a {
+            text-decoration: none;
+            font-family: $font-Overpass;
+            color: $Very-darkblue;
+            font-size: 0.8rem;
+            font-weight: 300;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+
+
+}
+
+.textborder {
+    border-bottom: 1px solid $White;
+}
+
+.companys {
+    display: none;
+}
+
+.companys-show {
+    width: 10.5rem;
+    height: 9.1875rem;
+    position: absolute;
+    top: 16%;
+    left: 33%;
+    background-color: $White;
+    color: $Very-darkblue;
+    padding: 0.4rem;
+    border-radius: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .companys-li {
+        list-style: none;
+        padding-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .companys-a {
+            text-decoration: none;
+            font-family: $font-Overpass;
+            color: $Very-darkblue;
+            font-size: 0.8rem;
+            font-weight: 300;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.connects {
+    display: none;
+}
+
+.connects-show {
+    width: 10.5rem;
+    height: 9.1875rem;
+    position: absolute;
+    top: 16%;
+    left: 46%;
+    background-color: $White;
+    color: $Very-darkblue;
+    padding: 0.4rem;
+    border-radius: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .connects-li {
+        list-style: none;
+        padding-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .connects-a {
+            text-decoration: none;
+            font-family: $font-Overpass;
+            color: $Very-darkblue;
+            font-size: 0.8rem;
+            font-weight: 300;
+
+            &:hover {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.angel-off {
+    display: none;
+}
+
+.angel-on {
+    display: inline-block;
+}
+
+.angels-off {
+    display: none;
+}
+
+.angels-on {
+    display: block !important;
+    color: $White;
+    cursor: pointer;
+    float: right;
+    margin-left: 0.8rem;
+}
+
+.slide-menu {
+    transform: translateY(0%) !important;
+}

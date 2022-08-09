@@ -1,0 +1,799 @@
+html {
+  font-size: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.btn {
+  width: 8.625rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  border: none; }
+
+.pruducts {
+  display: none; }
+
+.pruducts-show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 10.5rem;
+  height: 9.1875rem;
+  position: absolute;
+  top: 16%;
+  left: 20%;
+  background-color: white;
+  color: #1f3f5b;
+  padding: 0.4rem;
+  border-radius: 0.3125rem;
+  cursor: pointer; }
+  .pruducts-show .pruducts-li {
+    list-style: none;
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .pruducts-show .pruducts-li .pruducts-a {
+      text-decoration: none;
+      font-family: "Overpass", sans-serif;
+      color: #1f3f5b;
+      font-size: 0.8rem;
+      font-weight: 300; }
+      .pruducts-show .pruducts-li .pruducts-a:hover {
+        font-weight: 600; }
+
+.textborder {
+  border-bottom: 1px solid white; }
+
+.companys {
+  display: none; }
+
+.companys-show {
+  width: 10.5rem;
+  height: 9.1875rem;
+  position: absolute;
+  top: 16%;
+  left: 33%;
+  background-color: white;
+  color: #1f3f5b;
+  padding: 0.4rem;
+  border-radius: 0.3125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; }
+  .companys-show .companys-li {
+    list-style: none;
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .companys-show .companys-li .companys-a {
+      text-decoration: none;
+      font-family: "Overpass", sans-serif;
+      color: #1f3f5b;
+      font-size: 0.8rem;
+      font-weight: 300; }
+      .companys-show .companys-li .companys-a:hover {
+        font-weight: 600; }
+
+.connects {
+  display: none; }
+
+.connects-show {
+  width: 10.5rem;
+  height: 9.1875rem;
+  position: absolute;
+  top: 16%;
+  left: 46%;
+  background-color: white;
+  color: #1f3f5b;
+  padding: 0.4rem;
+  border-radius: 0.3125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; }
+  .connects-show .connects-li {
+    list-style: none;
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .connects-show .connects-li .connects-a {
+      text-decoration: none;
+      font-family: "Overpass", sans-serif;
+      color: #1f3f5b;
+      font-size: 0.8rem;
+      font-weight: 300; }
+      .connects-show .connects-li .connects-a:hover {
+        font-weight: 600; }
+
+.angel-off {
+  display: none; }
+
+.angel-on {
+  display: inline-block; }
+
+.angels-off {
+  display: none; }
+
+.angels-on {
+  display: block !important;
+  color: white;
+  cursor: pointer;
+  float: right;
+  margin-left: 0.8rem; }
+
+.slide-menu {
+  transform: translateY(0%) !important; }
+
+body .blogr {
+  max-width: 90rem; }
+  body .blogr .header {
+    width: 100%;
+    height: 37.5rem;
+    background-image: url(../images/bg-pattern-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 200%, 200%;
+    background-position: 22% 54%;
+    background-color: #ff3d54;
+    border-radius: 0rem 0rem 0rem 6.25rem;
+    padding: 3.6875rem 10rem 9.625rem 10.4375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    body .blogr .header .nav {
+      width: 100%;
+      height: 3rem;
+      display: flex;
+      align-items: center; }
+    body .blogr .header__left {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+    body .blogr .header__logo {
+      width: 6.3125rem;
+      height: 2.5rem; }
+    body .blogr .header__image {
+      width: 100%; }
+    body .blogr .header__navigation {
+      width: 50%;
+      margin-left: 3.75rem; }
+    body .blogr .header__list {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around; }
+    body .blogr .header__li {
+      list-style: none; }
+    body .blogr .header__a {
+      text-decoration: none;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      font-family: "Overpass", sans-serif; }
+    body .blogr .header__angledown {
+      color: white;
+      margin-left: 0.5625rem;
+      cursor: pointer;
+      transition: all 0.5s linear; }
+    body .blogr .header__angleup {
+      display: none; }
+    body .blogr .header__right {
+      width: 30%; }
+    body .blogr .header__user {
+      width: 100%;
+      height: 100%;
+      padding-left: 0.4375rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 4rem; }
+    body .blogr .header__login-btn {
+      font-size: 0.6875rem;
+      font-family: "Overpass", sans-serif;
+      border: none;
+      background-color: transparent;
+      color: white;
+      font-weight: 600;
+      cursor: pointer; }
+    body .blogr .header__sgin-btn {
+      font-size: 0.6875rem;
+      font-family: "Overpass", sans-serif;
+      color: #ff3d54;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.5s linear; }
+      body .blogr .header__sgin-btn:hover {
+        background-color: #ff8f70;
+        color: white; }
+    body .blogr .header__body {
+      width: 100%;
+      height: 12.625rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+    body .blogr .header__title {
+      font-size: 2.8125rem;
+      font-family: "Overpass", sans-serif;
+      font-weight: 600;
+      color: white;
+      letter-spacing: 0.3525rem; }
+    body .blogr .header__subtitle {
+      font-family: "Overpass", sans-serif;
+      font-size: 1rem;
+      color: white;
+      letter-spacing: 0.125rem; }
+    body .blogr .header__start-btn {
+      color: #ff8f70;
+      font-size: 0.8125rem;
+      cursor: pointer;
+      font-family: "Overpass", sans-serif;
+      font-weight: 300; }
+    body .blogr .header__learn-btn {
+      color: white;
+      font-size: 0.8125rem;
+      cursor: pointer;
+      font-family: "Overpass", sans-serif;
+      font-weight: 300;
+      border: 1px solid white;
+      background-color: #ff8f70;
+      margin-left: 0.875rem; }
+  body .blogr .mobile {
+    display: none; }
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 100%; }
+  body .blogr {
+    max-width: 24rem;
+    margin-left: auto;
+    margin-right: auto; }
+    body .blogr .header {
+      display: none; }
+    body .blogr .mobile {
+      display: block;
+      width: 100%;
+      height: 32.75rem;
+      padding: 3.0625rem 1.3125rem 8.5rem 1.3125rem;
+      background-image: url(../images/bg-pattern-intro-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: 300% 300%;
+      background-position: 35% 41%;
+      background-color: #ff3d54;
+      opacity: 0.7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 0rem 0rem 0rem 5.625rem; }
+      body .blogr .mobile__nav {
+        height: 1.75rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; }
+      body .blogr .mobile__top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+      body .blogr .mobile__logo {
+        width: 4.4375rem;
+        height: 100%; }
+      body .blogr .mobile__img {
+        width: 100%; }
+      body .blogr .mobile__bars {
+        color: white;
+        cursor: pointer; }
+      body .blogr .mobile__bottom {
+        position: absolute;
+        right: 0;
+        top: 9%;
+        background-color: white;
+        width: 50%;
+        height: 50.9%;
+        padding-left: 2rem;
+        border-radius: 1rem 0rem 0rem 1rem;
+        transform: translateY(-300%);
+        transition: all 1s linear; }
+      body .blogr .mobile__sliding {
+        width: 50%;
+        height: auto;
+        margin-top: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+      body .blogr .mobile__h3 {
+        width: 100%;
+        font-size: 1.2rem;
+        font-family: "Overpass", sans-serif;
+        color: #1f3f5b;
+        font-weight: 600;
+        text-align: left; }
+      body .blogr .mobile__li {
+        list-style: none;
+        padding: 0rem 0rem 0.4rem 0rem; }
+      body .blogr .mobile__a {
+        font-size: 1.1rem;
+        font-family: "Overpass", sans-serif;
+        color: #1f3f5b;
+        text-decoration: none; }
+        body .blogr .mobile__a:hover {
+          font-weight: 600; }
+      body .blogr .mobile__body {
+        height: 13.0625rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between; }
+      body .blogr .mobile__title {
+        font-size: 1.4375rem;
+        color: white;
+        font-family: "Overpass", sans-serif;
+        font-weight: 600;
+        text-align: center; }
+      body .blogr .mobile__subtitle {
+        font-size: 0.75rem;
+        font-family: "Overpass", sans-serif;
+        font-weight: 300;
+        color: white;
+        text-align: center; }
+      body .blogr .mobile__buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+      body .blogr .mobile__start {
+        width: 7.5625rem;
+        height: 2.625rem;
+        background-color: white;
+        border-radius: 1.3125rem;
+        border: none;
+        color: #ff3d54;
+        font-family: "Overpass", sans-serif;
+        font-size: 0.75rem;
+        cursor: pointer;
+        margin-right: 0.8125rem; }
+      body .blogr .mobile__learn {
+        width: 7.5625rem;
+        height: 2.625rem;
+        background-color: transparent;
+        border-radius: 1.3125rem;
+        border: 1px solid white;
+        color: white;
+        font-family: "Overpass", sans-serif;
+        font-size: 0.75rem;
+        cursor: pointer; } }
+
+body .blogr .section1 {
+  height: 60.0625rem;
+  padding-left: 10.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden; }
+  body .blogr .section1__title {
+    height: 2.25rem;
+    line-height: 2.25rem;
+    width: 100%;
+    text-align: end; }
+  body .blogr .section1__h1 {
+    font-family: "Overpass", sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 0.1875rem;
+    color: #25252d;
+    font-weight: 600; }
+  body .blogr .section1__content {
+    width: 58.74%;
+    height: 60.87%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between; }
+  body .blogr .section1__text {
+    width: 71.30%;
+    height: 74.19%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between; }
+  body .blogr .section1__top {
+    height: 50%; }
+  body .blogr .section1__h2 {
+    font-size: 1.25rem;
+    font-family: "Overpass", sans-serif;
+    letter-spacing: 0.25rem;
+    color: #25252d; }
+  body .blogr .section1__paragraphy {
+    margin-top: 2.5625rem;
+    color: #25252d;
+    font-family: "Overpass", sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 300; }
+  body .blogr .section1__bottom {
+    height: 50%; }
+  body .blogr .section1__images {
+    width: 41.26%;
+    height: 100%; }
+  body .blogr .section1__img {
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 12%;
+    right: -21%; }
+
+body .blogr .mobsection1 {
+  display: none; }
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 100%; }
+  body .blogr .section1 {
+    display: none; }
+  body .blogr .mobsection1 {
+    width: 100%;
+    height: 69.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5.8125rem 1.3125rem 4.9375rem 1.3125rem; }
+    body .blogr .mobsection1__head {
+      width: 100%;
+      height: 22.3125rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+    body .blogr .mobsection1__h1 {
+      height: 1.5rem;
+      width: 100%;
+      color: #1f3f5b;
+      font-family: "Overpass", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center; }
+    body .blogr .mobsection1__images {
+      height: 18.375rem;
+      width: 100%; }
+    body .blogr .mobsection1__img {
+      width: 100%; }
+    body .blogr .mobsection1__body {
+      height: 34.125rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+    body .blogr .mobsection1__top {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+    body .blogr .mobsection1__h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #25252d;
+      font-family: "Overpass", sans-serif;
+      text-align: center; }
+    body .blogr .mobsection1__paragraphy {
+      font-size: 1rem;
+      color: #25252d;
+      font-family: "Overpass", sans-serif;
+      text-align: center;
+      line-height: 1.5rem; }
+    body .blogr .mobsection1__bottom {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; } }
+
+body .blogr .section2 {
+  width: 100%;
+  height: 35.3125rem; }
+  body .blogr .section2__body {
+    height: 24.8125rem;
+    width: 100%;
+    border-radius: 0rem 6.25rem 0rem 6.25rem;
+    background-color: #1f3f5b;
+    background-image: url(../images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: 70% 210%;
+    background-position: -50% 92%;
+    display: flex;
+    align-items: center; }
+  body .blogr .section2__left {
+    width: 48.5%;
+    height: 31.1875rem;
+    position: relative; }
+  body .blogr .section2_images {
+    width: 100%;
+    height: 100%; }
+  body .blogr .section2__img {
+    width: 80%;
+    position: absolute;
+    top: 0%;
+    left: 12%; }
+  body .blogr .section2__right {
+    width: 51.5%;
+    height: 10.4375rem;
+    padding-left: 2.375rem; }
+  body .blogr .section2__h1 {
+    font-size: 1.875rem;
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600; }
+  body .blogr .section2__paragraphy {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-family: "Overpass", sans-serif;
+    color: white; }
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 100%; }
+  body .blogr .section2 {
+    height: 46.25rem;
+    width: 100%;
+    padding: 9.875rem 0rem 2.1875rem 0rem; }
+    body .blogr .section2__body {
+      height: 34.1875rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 0rem 5.4375rem 0rem 5.4375rem;
+      background-size: 150% 95.15%;
+      background-position: 50% -800%;
+      padding: 0rem 1.8125rem 6.5625rem 1.8125rem; }
+    body .blogr .section2__left {
+      height: 45.7%;
+      width: 100%; }
+    body .blogr .section2_images {
+      width: 100%;
+      height: 100%; }
+    body .blogr .section2__img {
+      width: 108%;
+      position: absolute;
+      top: -84%;
+      left: -4%; }
+    body .blogr .section2__right {
+      height: 54.3%;
+      line-height: 43.5%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+    body .blogr .section2__h1 {
+      font-size: 1.6875rem;
+      text-align: center;
+      line-height: 2rem; }
+    body .blogr .section2__paragraphy {
+      font-size: 1rem;
+      font-family: "Overpass", sans-serif;
+      color: #c8c8cb;
+      text-align: center;
+      line-height: 1.5rem; } }
+
+body .blogr .section3 {
+  height: 56.8125rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  body .blogr .section3__left {
+    width: 50%;
+    height: 100%; }
+  body .blogr .section3__images {
+    width: 100%;
+    height: 100%; }
+  body .blogr .section3__img {
+    width: 75%;
+    position: absolute;
+    top: 0%;
+    left: -21.5%; }
+  body .blogr .section3__img-mobile {
+    display: none; }
+  body .blogr .section3__h1 {
+    color: #1f3f5b;
+    font-family: "Overpass", sans-serif;
+    font-size: 1.3125rem;
+    letter-spacing: 0.125rem; }
+  body .blogr .section3__paragraphy {
+    margin-top: 2.625rem;
+    font-size: 0.8125rem;
+    font-family: "Overpass", sans-serif;
+    color: #25252d;
+    line-height: 1.25rem; }
+  body .blogr .section3__right {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between; }
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 100%; }
+  body .blogr .section3 {
+    height: 58.125rem;
+    width: 100%;
+    padding: 2.0625rem 0rem 5.4375rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    body .blogr .section3__left {
+      height: 17.875rem;
+      width: 100%; }
+    body .blogr .section3__images {
+      height: 100%;
+      width: 100%; }
+    body .blogr .section3__img {
+      display: none; }
+    body .blogr .section3__img-mobile {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    body .blogr .section3__right {
+      height: 55%;
+      width: 100%;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem; }
+    body .blogr .section3__h1 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-align: center;
+      color: #1f3f5b;
+      font-family: "Overpass", sans-serif; }
+    body .blogr .section3__paragraphy {
+      text-align: center;
+      color: #1f3f5b;
+      font-family: "Overpass", sans-serif;
+      font-size: 1.1rem; } }
+
+body .blogr .footer {
+  background-color: #25252d;
+  width: 100%;
+  height: 22.4375rem;
+  border-radius: 0rem 6.25rem 0rem 0rem;
+  padding: 4.375rem 21.4375rem 4.8125rem 10.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  body .blogr .footer__logo {
+    width: 25%;
+    height: 13.25rem; }
+  body .blogr .footer__images {
+    width: 6.3125rem;
+    height: 2.5rem; }
+  body .blogr .footer__img {
+    width: 100%; }
+  body .blogr .footer__nav {
+    width: 75%;
+    height: 13.25rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0.625rem 0rem 0rem 3.3125rem; }
+  body .blogr .footer__product {
+    height: 100%; }
+  body .blogr .footer__company {
+    height: 100%; }
+  body .blogr .footer__connect {
+    height: 100%; }
+  body .blogr .footer__h3 {
+    height: 25%;
+    font-size: 0.75rem;
+    font-family: "Overpass", sans-serif;
+    color: white; }
+  body .blogr .footer__list {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start; }
+  body .blogr .footer__li {
+    list-style: none;
+    padding-bottom: 0.5rem; }
+  body .blogr .footer__a {
+    text-decoration: none;
+    color: #c8c8cb;
+    font-size: 0.75rem;
+    font-family: "Overpass", sans-serif; }
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 100%; }
+  body .blogr .footer {
+    height: 49.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.0625rem 7.4375rem 4.5rem 7.4375rem; }
+    body .blogr .footer__logo {
+      width: 100%;
+      height: 2.25rem; }
+    body .blogr .footer__images {
+      height: 100%;
+      width: 100%; }
+    body .blogr .footer__img {
+      width: 100%; }
+    body .blogr .footer__nav {
+      width: 100%;
+      height: 34rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0; }
+    body .blogr .footer__product {
+      height: 33.3%;
+      width: 100%; }
+    body .blogr .footer__company {
+      height: 33.3%;
+      width: 100%;
+      margin-top: 1rem; }
+    body .blogr .footer__connect {
+      height: 33.3%;
+      width: 100%; }
+    body .blogr .footer__h3 {
+      height: auto;
+      text-align: center;
+      font-size: 0.8125rem;
+      margin-bottom: 0.5rem; }
+    body .blogr .footer__list {
+      height: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; }
+    body .blogr .footer__li {
+      text-align: center;
+      padding: 0.3rem; }
+    body .blogr .footer__a {
+      text-align: center;
+      font-size: 0.8125rem; } }
+
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 95%; } }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 90%; } }
+
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 85%; } }
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 80%; } }
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 70%; } }
