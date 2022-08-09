@@ -632,7 +632,8 @@ body .blogr .section3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-right: 12rem; }
 
 @media screen and (max-width: 850px) {
   html {
